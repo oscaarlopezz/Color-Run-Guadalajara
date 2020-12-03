@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     /* font */
-    font-family: "Averta CY", sans-serif;
+    font-family: 'Zilla Slab', serif;
 }
 
 body {
@@ -23,7 +23,7 @@ body {
 .header {
     width: 100%;
     padding: 7%;
-    background-image: url(../img/header.jpg);
+    background-image: url(../img/header2.jpg);
     background-size: cover;
     background-attachment: fixed;
     padding: 10% 20px;
@@ -50,12 +50,13 @@ body {
 
 .one-column h1 {
     text-align: center;
+    /*background-color: White;*/
 }
 
 .two-column {
     width: 50%;
     float: left;
-    padding: 7%;
+    padding: 1% 7%;
 }
 
 .two-column h1 {
@@ -68,7 +69,7 @@ body {
 }
 
 .two-column h3 {
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 .two-column img {
@@ -85,8 +86,8 @@ body {
 
 /*ID*/
 
-#section-1 {
-    background-color: #F5EEF5;
+#seccion-1 {
+    background-color: #bfcde6;
 }
 
 #section-2 {
