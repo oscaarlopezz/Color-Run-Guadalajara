@@ -8,21 +8,29 @@
     <link rel="shortcut icon" href="img/logo.png" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap" rel="stylesheet">
+    <script src="js/codigo.js"></script>
     <title>The Color Run Guadalajara</title>
 </head>
 
 <body>
+    <ul id="nav">
+        <li><a class="active" href="#header">Inicio</a></li>
+        <li><a href="#seccion-1">Vestimenta</a></li>
+        <li><a href="#seccion-2">Materiales</a></li>
+        <li><a href="#seccion-3">Mapa</a></li>
+        <li><a href="#seccion-4">Recomendaciones</a></li>
+        <li><a href="#seccion-5">Contacto</a></li>
+
+    </ul>
     <div class="row">
-        <div class="header">
-            <div class="one-column">
-                <h1>The Color Run Guadalajara</h1>
-            </div>
+        <div class="header" id="header">
+            <h1>The Color Run Guadalajara</h1>
         </div>
     </div>
     <!--https://runedia.mundodeportivo.com/foro/t/material-->
     <div class="row" id="seccion-1">
         <div class="one-column">
-            <h1>Outfit</h1>
+            <h1 class="titulo">Vestimenta</h1>
             <div class="two-column">
                 <h3>Calzado</h3>
                 <p>Es recomendable utilizar un calzado resistente y que sea especiales para correr para una mayor comodidad.</p>
@@ -41,16 +49,99 @@
                 <img src="img/2.jpg">
             </div>
             <div class="two-column">
-                <h3>Materiales necesarios recomendados</h3>
-                <p>·Una mochila</p>
-                <p>·Agua</p>
-                <p>·Comida</p>
-                <p>·Gafas</p>
-                <p>·</p>
+                <h3>Materiales necesarios recomendados:</h3>
+                <p>·Una mochila.</p>
+                <p>·Agua.</p>
+                <p>·Comida.</p>
+                <p>·Gafas.</p>
+                <p>·Calzado correspondiente para la maratón.</p>
+                <p>·Prendas de ropa deportivas.</p>
             </div>
         </div>
     </div>
-
+    <div class="row" id="seccion-3">
+        <div class="one-column">
+            <h1>Mapa</h1>
+            <br>
+            <div class="two-column">
+                <h3>Inicio recorrido</h3>
+                <img src="img/recorrido_guadalajara1.PNG">
+            </div>
+            <div class="two-column">
+                <h3>Final recorrido</h3>
+                <p>(El final esta situado en el mismo lugar que el inicio)</p>
+                <img src="img/recorrido_guadalajara.PNG">
+            </div>
+        </div>
+        <div class="one-column">
+            <h3>Mapa interactivo</h3>
+            <br>
+            <iframe src="https://www.google.com/maps/embed?pb=!4v1607453876418!6m8!1m7!1swJbsNGyeoPDkVOLTjx1gbA!2m2!1d20.65991787929202!2d-103.3500014054181!3f113.25151!4f0!5f0.7820865974627469" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+        </div>
+    </div>
+    <div class="row" id="seccion-4">
+        <div class="one-column">
+            <h1>Recomendaciones para la maratón</h1>
+            <div class="two-column">
+                <h3>5 cosas que debes de conocer antes de empezar la maratón</h3>
+                <p>1. Entrenamiento mental. Siempre trata de mantener una actitud positiva.</p>
+                <p>2. Resistencia cardiovascular.</p>
+                <p>3. Fuerza muscular.</p>
+                <p>4. Velocidad.</p>
+                <p>5. Recuperación. </p>
+            </div>
+            <div class="two-column">
+                <img src="img/4.jpg">
+            </div>
+        </div>
+    </div>
+    <div class="row" id="seccion-5">
+        <div class="one-column">
+            <h1>Contacto</h1>
+            <div class="two-column">
+                <h3>Redes sociales</h3>
+                <div class="three-column">
+                    <a href="https://www.facebook.com/runedia" target=”_blank”><img src="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtNzUgNTEyaDE2N3YtMTgyaC02MHYtNjBoNjB2LTc1YzAtNDEuMzU1NDY5IDMzLjY0NDUzMS03NSA3NS03NWg3NXY2MGgtNjBjLTE2LjU0Mjk2OSAwLTMwIDEzLjQ1NzAzMS0zMCAzMHY2MGg4Ny4yOTI5NjlsLTEwIDYwaC03Ny4yOTI5Njl2MTgyaDEzNWM0MS4zNTU0NjkgMCA3NS0zMy42NDQ1MzEgNzUtNzV2LTM2MmMwLTQxLjM1NTQ2OS0zMy42NDQ1MzEtNzUtNzUtNzVoLTM2MmMtNDEuMzU1NDY5IDAtNzUgMzMuNjQ0NTMxLTc1IDc1djM2MmMwIDQxLjM1NTQ2OSAzMy42NDQ1MzEgNzUgNzUgNzV6bS00NS00MzdjMC0yNC44MTI1IDIwLjE4NzUtNDUgNDUtNDVoMzYyYzI0LjgxMjUgMCA0NSAyMC4xODc1IDQ1IDQ1djM2MmMwIDI0LjgxMjUtMjAuMTg3NSA0NS00NSA0NWgtMTA1di0xMjJoNzIuNzA3MDMxbDIwLTEyMGgtOTIuNzA3MDMxdi0zMGg5MHYtMTIwaC0xMDVjLTU3Ljg5ODQzOCAwLTEwNSA0Ny4xMDE1NjItMTA1IDEwNXY0NWgtNjB2MTIwaDYwdjEyMmgtMTM3Yy0yNC44MTI1IDAtNDUtMjAuMTg3NS00NS00NXptMCAwIi8+PC9zdmc+"
+                        /></a>
+                    <a href="https://www.twitter.com/runedia" target=”_blank”><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDQ5NiA0OTYiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQ5NiA0OTY7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxnPg0KCQk8Zz4NCgkJCTxwYXRoIGQ9Ik0zNjUuMDA4LDBIMTMwLjk5MkM1Ny41MzYsMCwwLDU3LjUzNiwwLDEzMC45OTJ2MjM0LjAxNkMwLDQzOC40NjQsNTcuNTM2LDQ5NiwxMzAuOTkyLDQ5NmgyMzQuMDE2DQoJCQkJQzQzOC40NjQsNDk2LDQ5Niw0MzguNDY0LDQ5NiwzNjUuMDA4VjEzMC45OTJDNDk2LDU3LjUzNiw0MzguNDQ4LDAsMzY1LjAwOCwweiBNNDY0LDM2NS4wMDgNCgkJCQljMCw1NS41Mi00My40ODgsOTguOTkyLTk4Ljk5Miw5OC45OTJIMTMwLjk5MkM3NS40ODgsNDY0LDMyLDQyMC41MTIsMzIsMzY1LjAwOFYxMzAuOTkyQzMyLDc1LjQ4OCw3NS40ODgsMzIsMTMwLjk5MiwzMmgyMzQuMDE2DQoJCQkJQzQyMC41MjgsMzIsNDY0LDc1LjQ4OCw0NjQsMTMwLjk5MlYzNjUuMDA4eiIvPg0KCQkJPHBhdGggZD0iTTQwMy45ODQsMTI2LjY0Yy01LjEzNi0zLjc2LTEyLjAxNi00LjA4LTE3LjUwNC0wLjg4Yy01LjQ3MiwzLjIxNi0xNy42LDQuOC0yNy4zMjgsNi4wOGMtMi4wMTYsMC4yNzItNCwwLjUyOC01LjkyLDAuOA0KCQkJCWMtMTMuNjE2LTExLjI5Ni0zMS4wMDgtMTcuNjMyLTQ4Ljk0NC0xNy42MzJjLTQwLjQsMC03My41NTIsMzEuMjY0LTc1LjkwNCw3MC41OTJjLTM2LjY0LTYuMTc2LTcwLjE5Mi0yNS4yOC05My45NjgtNTMuOTg0DQoJCQkJYy0zLjUzNi00LjI4OC05LjAyNC02LjM4NC0xNC41Ni01LjY2NGMtNS41MDQsMC43NjgtMTAuMjA4LDQuMzM2LTEyLjQzMiw5LjQyNGMtMS4wMjQsMi4zMzYtOS45NTIsMjQuMzA0LTkuOTUyLDc4LjY0DQoJCQkJYzAsNDcuMDU2LDM3LjEzNiw4MS42MzIsNjIuNjA4LDk5LjgyNGMtMTcuNDI0LDcuOTItMzcuNTA0LDEwLjgzMi01Ni41NzYsOC43MmMtNy40NTYtMC44LTE0LjQzMiwzLjU4NC0xNi44OTYsMTAuNjA4DQoJCQkJYy0yLjQ2NCw3LjA0LDAuMjU2LDE0Ljg0OCw2LjU2LDE4LjgzMmMzMC4wOCwxOC45NzYsNjQuODQ4LDI5LjAwOCwxMDAuNTYsMjkuMDA4YzExNC42ODgsMCwxODQuMDk2LTkwLjA5NiwxODYuNjcyLTE3OC45MjgNCgkJCQljMy4yOTYtNC43ODQsOS41ODQtMTQuMDk2LDIwLjIwOC0zMC40MzJjNC4yNTYtNi41NzYsNy44MjQtMjAuNzUyLDkuNTY4LTI4LjYwOEM0MTEuNTY4LDEzNi44MzIsNDA5LjEyLDEzMC4zODQsNDAzLjk4NCwxMjYuNjR6DQoJCQkJIE0zNTEuNTM2LDE4Ny41MzZjLTEuOTY4LDIuNzItMy4wNCw2LjAxNi0zLjA0LDkuMzc2YzAsNjMuMTUyLTQ4LjAxNiwxNTIuMDk2LTE1NC43NTIsMTUyLjA5Ng0KCQkJCWMtOS42NDgsMC0xOS4yMTYtMC44OC0yOC41OTItMi42MDhjMTIuNTEyLTQuNzM2LDI0LjMzNi0xMS4zNDQsMzUuMi0xOS43MTJjNC4zNTItMy4zNDQsNi42NzItOC43Miw2LjE2LTE0LjE3Ng0KCQkJCWMtMC41MTItNS40NTYtMy43OTItMTAuMjg4LTguNzA0LTEyLjc2OGMtMC42ODgtMC4zNTItNjguMzItMzUuOTItNjguMzItODUuNzEyYzAtMTYuNjg4LDAuODk2LTI5LjgwOCwyLjA4LTM5Ljc5Mg0KCQkJCWMzMS40MDgsMjcuMDQsNzEuMzc2LDQzLjIxNiwxMTMuNDQsNDUuMjk2YzAuMzIsMC4wMTYsMC42NTYsMC4wMzIsMC45NiwwLjAxNmM5LjMxMi0wLjI3MiwxNi4xNi03LjEwNCwxNi4xNi0xNg0KCQkJCWMwLTIuMjA4LTAuNDQ4LTQuMzA0LTEuMjY0LTYuMjI0Yy0wLjQtMi40LTAuNjA4LTQuODE2LTAuNjA4LTcuMjMyYzAtMjMuNzYsMTkuNzQ0LTQzLjA4OCw0NC4wMzItNDMuMDg4DQoJCQkJYzEyLjE5MiwwLDIzLjkyLDQuOTkyLDMyLjE5MiwxMy42OGMzLjc3NiwzLjkzNiw5LjI5Niw1LjcxMiwxNC42MjQsNC42NzJjMy42MzItMC42ODgsNy44MjQtMS4yMzIsMTIuMjI0LTEuODA4DQoJCQkJYzEuNTY4LTAuMjA4LDMuMTUyLTAuNDE2LDQuNzY4LTAuNjRDMzU2LjA4LDE4MS4yMTYsMzUxLjc0NCwxODcuMjQ4LDM1MS41MzYsMTg3LjUzNnoiLz4NCgkJPC9nPg0KCTwvZz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjwvc3ZnPg0K"
+                        /></a>
+                    <a href="https://www.instagram.com/runedia_web/" target=”_blank”><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGc+DQoJCTxwYXRoIGQ9Ik0zNTIsMEgxNjBDNzEuNjQ4LDAsMCw3MS42NDgsMCwxNjB2MTkyYzAsODguMzUyLDcxLjY0OCwxNjAsMTYwLDE2MGgxOTJjODguMzUyLDAsMTYwLTcxLjY0OCwxNjAtMTYwVjE2MA0KCQkJQzUxMiw3MS42NDgsNDQwLjM1MiwwLDM1MiwweiBNNDY0LDM1MmMwLDYxLjc2LTUwLjI0LDExMi0xMTIsMTEySDE2MGMtNjEuNzYsMC0xMTItNTAuMjQtMTEyLTExMlYxNjBDNDgsOTguMjQsOTguMjQsNDgsMTYwLDQ4DQoJCQloMTkyYzYxLjc2LDAsMTEyLDUwLjI0LDExMiwxMTJWMzUyeiIvPg0KCTwvZz4NCjwvZz4NCjxnPg0KCTxnPg0KCQk8cGF0aCBkPSJNMjU2LDEyOGMtNzAuNjg4LDAtMTI4LDU3LjMxMi0xMjgsMTI4czU3LjMxMiwxMjgsMTI4LDEyOHMxMjgtNTcuMzEyLDEyOC0xMjhTMzI2LjY4OCwxMjgsMjU2LDEyOHogTTI1NiwzMzYNCgkJCWMtNDQuMDk2LDAtODAtMzUuOTA0LTgwLTgwYzAtNDQuMTI4LDM1LjkwNC04MCw4MC04MHM4MCwzNS44NzIsODAsODBDMzM2LDMwMC4wOTYsMzAwLjA5NiwzMzYsMjU2LDMzNnoiLz4NCgk8L2c+DQo8L2c+DQo8Zz4NCgk8Zz4NCgkJPGNpcmNsZSBjeD0iMzkzLjYiIGN5PSIxMTguNCIgcj0iMTcuMDU2Ii8+DQoJPC9nPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo="
+                        /></a>
+                </div>
+            </div>
+            <div class="two-column">
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+                </head>
+                <br />
+                <div class="inner contact">
+                    <div class="contact-form">
+                        <form id="contact-us" method="post" action="#">
+                            <div class="col-xs-6 wow animated slideInLeft" data-wow-delay=".5s">
+                                <input type="text" name="name" id="name" required="required" class="form" placeholder="Nombre" />
+                                <input type="email" name="mail" id="mail" required="required" class="form" placeholder="E-mail" />
+                                <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Asunto" />
+                            </div>
+                            <div class="col-xs-6 wow animated slideInRight" data-wow-delay=".5s">
+                                <textarea name="message" id="message" class="form textarea" placeholder="Mensaje"></textarea>
+                            </div>
+                            <div class="relative fullwidth col-xs-12">
+                                <button type="submit" id="submit" name="submit" class="form-btn semibold">Enviar Mensaje</button>
+                            </div>
+                            <div class="clear"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" id="seccion-6">
+        <div class="one-column">
+            <h5>Para mas informacion descarga nuestra infografia --></h5>
+            <p>Pagina desarrollada por ©TheColorRunGuadalajara</p>
+            <p>Con colaboracion con ©Runedia</p>
+        </div>
+    </div>
 </body>
 
 </html>

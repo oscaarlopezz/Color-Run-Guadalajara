@@ -8,6 +8,40 @@ body {
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0% 15% 5px 15%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 23px;
+    transition: 0.4s;
+    /*tiempo que se aplica el color de fondo a la barra de navegacion*/
+}
+
+li {
+    float: left;
+    width: 16.66%;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 10% 10px 0%;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #f30639;
+}
+
 
 /* Clear floats after the columns */
 
@@ -33,7 +67,6 @@ body {
 
 .header h1 {
     font-size: 80px;
-    color: teal;
 }
 
 .header h2 {
@@ -45,11 +78,17 @@ body {
 
 .one-column {
     width: 100%;
-    padding: 2% 7%;
+    padding: 4% 7%;
 }
 
 .one-column h1 {
     text-align: center;
+    /*background-color: White;*/
+}
+
+.one-column h3 {
+    text-align: center;
+    font-size: 23px;
     /*background-color: White;*/
 }
 
@@ -69,12 +108,20 @@ body {
 }
 
 .two-column h3 {
-    font-size: 1.5vw;
+    font-size: 2vw;
+}
+
+.two-column p {
+    font-size: 20px;
 }
 
 .two-column img {
     width: 100%;
-    border-radius: 10px
+    border-radius: 10px;
+}
+
+.three-column img {
+    padding: 3%;
 }
 
 .four-column {
@@ -83,30 +130,220 @@ body {
     padding: 2% 7%;
 }
 
+.titulo {
+    padding: 0% 0% 3% 0%;
+}
+
+
+/*---------------------------------------------Contacto inicio--------------------------------------------------------------------*/
+
+#contact {
+    padding: 10px 0 10px;
+}
+
+.contact-text {
+    margin: 45px auto;
+}
+
+.mail-message-area {
+    width: 100%;
+    padding: 0 15px;
+}
+
+.mail-message {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8) !important;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    transition: all 0.7s;
+    margin: 0 auto;
+    border-radius: 0;
+}
+
+.not-visible-message {
+    height: 0px;
+    opacity: 0;
+}
+
+.visible-message {
+    height: auto;
+    opacity: 1;
+    margin: 25px auto 0;
+}
+
+
+/* Input Styles */
+
+.form {
+    width: 100%;
+    padding: 15px;
+    background: #f8f8f8;
+    border: 1px solid rgba(0, 0, 0, 0.075);
+    margin-bottom: 25px;
+    color: #727272 !important;
+    font-size: 13px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.form:hover {
+    border: 1px solid #8BC3A3;
+}
+
+.form:focus {
+    color: white;
+    outline: none;
+    border: 1px solid #8BC3A3;
+}
+
+.textarea {
+    height: 200px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+
+/* Generic Button Styles */
+
+.button {
+    padding: 8px 12px;
+    background: #0A5175;
+    display: block;
+    width: 120px;
+    margin: 10px 0 0px 0;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: center;
+    font-size: 0.8em;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
+    -moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
+    -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
+}
+
+.button:hover {
+    background: #8BC3A3;
+    color: white;
+}
+
+
+/* Send Button Styles */
+
+.form-btn {
+    width: 180px;
+    display: block;
+    height: auto;
+    padding: 15px;
+    color: #fff;
+    background: #8BC3A3;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    margin: auto;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
+    -moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
+    -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
+}
+
+.form-btn:hover {
+    background: #111;
+    color: white;
+    border: none;
+}
+
+.form-btn:active {
+    opacity: 0.9;
+}
+
+center {
+    margin-top: 330px;
+}
+
+input {
+    position: relative;
+    z-index: 9999;
+}
+
+
+/*------------------------------------------------------------------------Contacto FINAL-----------------------------------------------------*/
+
 
 /*ID*/
 
 #seccion-1 {
     background-color: #bfcde6;
+    padding-bottom: 2%;
 }
 
-#section-2 {
-    background-color: #FAF5F3;
+#seccion-2 {
+    background-color: #e0ffd9;
+    padding-bottom: 2%;
 }
 
-#section-3 {
-    background-color: #F2F9F8;
+#seccion-3 {
+    background-color: #ffe0e9;
+    padding-bottom: 2%;
 }
 
-#section-4 {
-    background-color: #000000;
-    color: white;
+#seccion-3 img {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#seccion-3 iframe {
+    align-items: center;
+    width: 550px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#seccion-4 {
+    background-color: #ffd191;
+    padding-bottom: 2%;
+}
+
+#seccion-5 {
+    background-color: white;
+}
+
+#seccion-5 img {
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#seccion-6 {
+    background-color: grey;
+    text-align: center;
+}
+
+#seccion-6 p {
+    font-size: 20px;
 }
 
 
 /*Media Screen*/
 
 @media screen and (max-width:700px) {
+    .header h1 {
+        font-size: 13vw;
+    }
+    .one-column {
+        padding: 10%;
+    }
+    .one-column h1 {
+        font-size: 9vw;
+    }
     .two-column {
         width: 100%;
     }
@@ -117,9 +354,62 @@ body {
         font-size: 5vw;
     }
     .two-column h3 {
-        font-size: 4vw;
+        font-size: 6vw;
+    }
+    .two-column p {
+        font-size: 5vw;
+    }
+    .two-column img {
+        width: 100%;
+        padding: 0%;
     }
     .four-column {
         width: 50%;
+    }
+    li {
+        width: 55%;
+        float: none;
+        display: inline-block;
+        padding: 2px 5px 0px 0px;
+    }
+    li a {
+        font-size: 20px;
+        /**/
+        display: inline-block;
+        padding: 5%;
+    }
+    ul {
+        padding: 5px;
+        /**/
+        overflow: auto;
+        white-space: nowrap;
+    }
+    /*ID*/
+    #seccion-1 {
+        background-color: #bfcde6;
+    }
+    #seccion-2 {
+        background-color: #e0ffd9;
+    }
+    #seccion-3 {
+        background-color: #ffe0e9;
+        text-align: center;
+    }
+    #seccion-3 iframe {
+        width: 90%;
+        height: 100%;
+    }
+    #seccion-4 {
+        background-color: #ffd191;
+    }
+    #seccion-5 {
+        padding-bottom: 2%;
+    }
+    #seccion-5 img {
+        padding-bottom: 2%;
+    }
+    #seccion-6 p {
+        padding-top: 5%;
+        font-size: 5vw;
     }
 }
