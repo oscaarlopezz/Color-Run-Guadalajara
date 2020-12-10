@@ -27,7 +27,7 @@ ul {
 
 li {
     float: left;
-    width: 16.66%;
+    width: 14.28%;
 }
 
 li a {
@@ -329,6 +329,16 @@ input {
 
 #seccion-6 p {
     font-size: 20px;
+}
+
+#seccion-7 {
+    background-color: #ffffbf;
+    text-align: center;
+    padding: 5% 0%;
+}
+
+#seccion-7 img {
+    width: 50%;
 }
 
 
