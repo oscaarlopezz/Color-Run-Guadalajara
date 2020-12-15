@@ -42,6 +42,11 @@ li a:hover {
     color: #f30639;
 }
 
+.fixed {
+    position: fixed;
+    top: 0
+}
+
 
 /* Clear floats after the columns */
 
@@ -311,33 +316,33 @@ input {
     padding-bottom: 2%;
 }
 
-#seccion-5 {
+#seccion-6 {
     background-color: white;
 }
 
-#seccion-5 img {
+#seccion-6 img {
     width: 20%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-#seccion-6 {
+#seccion-7 {
     background-color: grey;
     text-align: center;
 }
 
-#seccion-6 p {
+#seccion-7 p {
     font-size: 20px;
 }
 
-#seccion-7 {
+#seccion-5 {
     background-color: #ffffbf;
     text-align: center;
     padding: 5% 0%;
 }
 
-#seccion-7 img {
+#seccion-5 img {
     width: 50%;
 }
 
@@ -388,6 +393,10 @@ input {
         display: inline-block;
         padding: 5%;
     }
+    .fixed {
+        position: fixed;
+        top: 0
+    }
     ul {
         padding: 5px;
         /**/
@@ -413,12 +422,15 @@ input {
         background-color: #ffd191;
     }
     #seccion-5 {
+        padding-top: 10%;
+    }
+    #seccion-6 {
         padding-bottom: 2%;
     }
-    #seccion-5 img {
+    #seccion-6 img {
         padding-bottom: 2%;
     }
-    #seccion-6 p {
+    #seccion-7 p {
         padding-top: 5%;
         font-size: 5vw;
     }
