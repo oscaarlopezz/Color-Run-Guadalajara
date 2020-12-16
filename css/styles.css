@@ -6,6 +6,7 @@
 
 body {
     margin: 0;
+    padding: 0;
 }
 
 html {
@@ -15,7 +16,7 @@ html {
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0% 15% 5px 15%;
+    padding: 0% 0.5% 5px 0.5%;
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -27,14 +28,15 @@ ul {
 
 li {
     float: left;
-    width: 14.28%;
+    width: 12.5%;
+    padding-right: 5px;
 }
 
 li a {
     display: block;
     color: black;
     text-align: center;
-    padding: 10px 10% 10px 0%;
+    padding: 10px 10px 10px 0%;
     text-decoration: none;
 }
 
@@ -316,34 +318,51 @@ input {
     padding-bottom: 2%;
 }
 
-#seccion-6 {
+#seccion-7 {
     background-color: white;
 }
 
-#seccion-6 img {
+#seccion-7 img {
     width: 20%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-#seccion-7 {
+#seccion-8 {
     background-color: grey;
     text-align: center;
 }
 
-#seccion-7 p {
+#seccion-8 p {
     font-size: 20px;
 }
 
 #seccion-5 {
     background-color: #ffffbf;
     text-align: center;
-    padding: 5% 0%;
+    padding: 4% 0%;
 }
 
 #seccion-5 img {
     width: 50%;
+}
+
+#seccion-6 {
+    padding: 5% 1%;
+    align-items: center;
+    background-color: #333333;
+    color: white;
+    text-align: center;
+}
+
+#seccion-6 h3 {
+    padding: 25% 0%;
+}
+
+#seccion-6 iframe {
+    width: 350px;
+    height: 500px;
 }
 
 
@@ -376,7 +395,7 @@ input {
     }
     .two-column img {
         width: 100%;
-        padding: 0%;
+        padding: 1%;
     }
     .four-column {
         width: 50%;
@@ -390,48 +409,66 @@ input {
     li a {
         font-size: 20px;
         /**/
-        display: inline-block;
-        padding: 5%;
+        padding: 5% 7%;
+        text-align: center;
     }
     .fixed {
         position: fixed;
         top: 0
     }
     ul {
-        padding: 5px;
+        padding: 5px 1%;
         /**/
-        overflow: auto;
         white-space: nowrap;
+        display: inline-block;
+        overflow: auto;
     }
     /*ID*/
     #seccion-1 {
-        background-color: #bfcde6;
+        padding: 2% 1%;
+    }
+    #seccion-1 {
+        width: auto;
     }
     #seccion-2 {
-        background-color: #e0ffd9;
+        padding: 2% 1%;
     }
     #seccion-3 {
-        background-color: #ffe0e9;
+        padding: 2% 1%;
         text-align: center;
+    }
+    #seccion-3 h1 {
+        padding-bottom: 2%;
+    }
+    #seccion-3 img {
+        width: 100%;
+        padding-bottom: 3%;
     }
     #seccion-3 iframe {
         width: 90%;
         height: 100%;
     }
     #seccion-4 {
-        background-color: #ffd191;
+        padding: 2% 1%;
     }
     #seccion-5 {
-        padding-top: 10%;
+        padding: 12% 1%;
     }
-    #seccion-6 {
+    #seccion-6 h3 {
+        padding: 7% 1% 3%;
+    }
+    #seccion-6 iframe {
+        width: 100%;
+        padding: 5% 3%;
+    }
+    #seccion-7 {
+        padding: 2% 1% 4%;
+    }
+    #seccion-7 img {
         padding-bottom: 2%;
     }
-    #seccion-6 img {
-        padding-bottom: 2%;
-    }
-    #seccion-7 p {
-        padding-top: 5%;
+    #seccion-8 p {
+        padding: 2% 1%;
         font-size: 5vw;
     }
 }
