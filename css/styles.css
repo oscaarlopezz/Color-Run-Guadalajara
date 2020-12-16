@@ -368,7 +368,7 @@ input {
 
 /*Media Screen*/
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:800px) {
     .header h1 {
         font-size: 13vw;
     }
